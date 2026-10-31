@@ -60,7 +60,3 @@ docs/             SETUP.md, defence-sheet.md
 presentation/     hackathon slides
 deploy.bat        copies the built programs to the Pi (Windows)
 ```
-
-## Limitations
-Simulated CAN bus, no message authentication, not certified. Ideas for an automotive-grade version: a real CAN / CAN-FD
-transceiver, HMAC and counter on safety frames, per-ECU CAN IDs, QNX HAM to restart services, adaptive partitioning.
